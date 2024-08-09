@@ -1,0 +1,102 @@
+* {
+  margin: auto;
+  padding: auto;
+}
+body {
+  background-color: #201335;
+}
+.container {
+  text-align: center;
+  justify-content: center;
+  height: 70vh;
+  width: 70vh;
+}
+.hola {
+  text-align: center;
+  justify-content: center;
+  height: 60vh;
+  width: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 20%;
+  border: none;
+  background-color: black;
+  color: black;
+  font-size: 30px;
+  font-weight: 800;
+}
+.neon-red {
+  color: white;
+  text-shadow: 0 0 10px red, 0 0 10px red, 0 0 5px red;
+}
+.neon-blue {
+  color: white;
+  text-shadow: 0 0 7px blue, 0 0 10px blue, 0 0 5px blue;
+}
+h1 {
+  font-family: cursive;
+  color: black;
+  margin-bottom: 50px;
+}
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.siuu button {
+  margin-top: 900px;
+}
+.msg {
+  font: 20px;
+  font-weight: 900;
+  color: blueviolet;
+  border: 1px solid white;
+  width: 300px;
+  height: 25px;
+  border-radius: 10px;
+}
+#reset {
+  background: linear-gradient(to right, red, aqua);
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  color: white;
+  font-weight: 700;
+}
+.line {
+  position: absolute;
+  background-color: currentColor; /* Use the current text color */
+  height: 5px;
+  width: 100%; /* Adjust this based on the line length */
+  transform: rotate(0deg);
+  transition: width 0.5s ease, transform 0.5s ease;
+}
+
+.line.red {
+  color: red;
+}
+
+.line.blue {
+  color: blue;
+}
+.msg-neon-red {
+  font: 20px;
+  font-weight: 900;
+  color: white;
+  text-shadow: 0 0 10px red, 0 0 10px red, 0 0 5px red;
+}
+.msg-neon-blue {
+  font: 20px;
+  font-weight: 900;
+  color: white;
+  text-shadow: 0 0 10px blue, 0 0 10px blue, 0 0 5px blue;
+}
